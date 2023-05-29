@@ -1,0 +1,58 @@
+/* CSS Styles for the Landing Page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  color: #333333;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 20px;
+  color: #666666;
+  margin-bottom: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="tel"] {
+  padding: 12px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"] {
+  padding: 16px 24px;
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #555555;
+}
