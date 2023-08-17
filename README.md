@@ -1,2 +1,2 @@
 # landingpage
-a landing page for graphic designing service
+A Responsive design landing page for graphic designing service.
